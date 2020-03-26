@@ -33,3 +33,8 @@ For metric evaluation I used accuracy scores, f-1 scores and confusion matrices 
 
 ### Analysis of Results
 
+The accuracy scores show the percentage of correct predictions with respect to the total number of predictions. It can be seen that the model has very high accuracy.
+
+The precision score for each class shows the percentage of true positives with respect to all positives, while the recall score shows the percentage of true positives with respect to the sum of true positives and false negatives. The F1 score is the harmonic mean between precision and recall and will show the robustness and precision of the model. The F1 score of this model indicates a very good performing model.
+
+I added the confusion matrix to show the complete performance of the model. We can see that the values are much greater on the diagonal than anywhere else, indicating that most of the predictions were indeed accurate(as seen in the accuracy score).
